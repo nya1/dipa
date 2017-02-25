@@ -1,6 +1,6 @@
 {
   "name": "dipa",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "Automatically expose an API about your PIDs, know if a specific PID is running",
   "preferGlobal": true,
   "main": "index.js",
@@ -12,9 +12,9 @@
   },
   "author": "nya1",
   "license": "ISC",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/nya1/dipa.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nya1/dipa.git"
   },
   "dependencies": {
     "commander": "^2.9.0",
