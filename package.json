@@ -1,0 +1,35 @@
+{
+  "name": "dipa",
+  "version": "0.1.11",
+  "description": "Automatically expose an API about your PIDs, know if a specific PID is running",
+  "main": "index.js",
+  "bin": {
+    "dipa": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nya1",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "is-running": "^2.1.0",
+    "nedb": "^1.8.0",
+    "osenv": "^0.1.4",
+    "restify": "^4.3.0"
+  },
+  "keywords": [
+    "dipa",
+    "pid",
+    "api",
+    "rest",
+    "api pid",
+    "pid status",
+    "pid monitor"
+  ],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "execa": "^0.6.0",
+    "mocha": "^3.2.0"
+  }
+}
